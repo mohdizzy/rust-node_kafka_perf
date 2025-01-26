@@ -1,0 +1,33 @@
+{
+  "name": "rust-kafka",
+  "version": "0.1.0",
+  "bin": {
+    "rust-kafka": "bin/rust-kafka.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "22.7.9",
+    "aws-cdk": "2.172.0",
+    "esbuild": "^0.24.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.6.3"
+  },
+  "dependencies": {
+    "@serverless-guru/logger": "^1.0.7",
+    "aws-cdk-lib": "2.172.0",
+    "axios": "^1.7.9",
+    "cargo-lambda-cdk": "^0.0.31",
+    "constructs": "^10.0.0",
+    "datadog-cdk-constructs-v2": "^1.21.0",
+    "kafkajs": "^2.2.4",
+    "uuid": "^11.0.3"
+  }
+}
