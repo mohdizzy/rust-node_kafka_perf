@@ -26,7 +26,7 @@ Performance comparison framework between Rust and Node.js Lambda functions using
 
 ## Deployment
 
-Deploy the infrastructure:
+With docker running,
 
 ```bash
 sudo cdk deploy --profile <profile_name>
